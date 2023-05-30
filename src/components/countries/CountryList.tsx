@@ -20,7 +20,7 @@ export default function CountryList() {
     try {
       const response = await fetch(url);
       const data = await response.json();
-      setCountries(data);
+      setCountries(data.slice(21,41));
     } catch (error) {
       console.log(error);
     }

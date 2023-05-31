@@ -49,7 +49,6 @@ export default function ProductList() {
           </div>
         </div>
       </div>
-      {/* <ProductItem products={products} /> */}
     </div>
   );
 }

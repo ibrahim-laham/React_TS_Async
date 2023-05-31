@@ -39,7 +39,7 @@ export default function CountryList() {
         </h2>
 
         <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          {countries.map((country) => <CountryItem country={country} />)}
+          {countries.map((country) => <CountryItem country={country} key={country.name.common} />)}
         </div>
       </div>
     </div>
